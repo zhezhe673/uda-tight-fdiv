@@ -24,7 +24,7 @@ Transfer-Learning-Library/
 
 ## Requirements
 
-Please ensure that you have successfully installed the Transfer-Learning-Library. For detailed installation instructions, see the official repository installation guide.
+Please ensure that you have successfully installed the [Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library). For detailed installation instructions, see the official repository installation guide.
 
 * Python 3.7+
 * PyTorch 1.7+
