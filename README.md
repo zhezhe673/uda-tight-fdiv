@@ -2,7 +2,9 @@
 
 **GitHub Repository:** [https://github.com/zhezhe673/uda-tight-fdiv](https://github.com/zhezhe673/uda-tight-fdiv)
 
-This example demonstrates how to run the fDAAD domain adaptation method for image classification using the [Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library) framework.
+This example demonstrates how to run our Adaptive \$f\$-Divergence Domain Adaptation method for image classification using the [Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library) framework.
+
+In the code, we refer to our Adaptive f-Divergence Domain Adaptation method as **fDAAD**.
 
 ## Repository Structure
 
@@ -21,6 +23,8 @@ Transfer-Learning-Library/
 > **Note:** Copy `main.py` and `fDAAD.py` from this example into `examples/domain_adaptation/image_classification/` of your local clone of the Transfer-Learning-Library.
 
 ## Requirements
+
+Please ensure that you have successfully installed the Transfer-Learning-Library. For detailed installation instructions, see the official repository installation guide.
 
 * Python 3.7+
 * PyTorch 1.7+
@@ -66,12 +70,6 @@ CUDA_VISIBLE_DEVICES=0 python main.py data/office31 \
 * Logs are saved under `--log_dir`
 * Model checkpoints under `--save_dir`
 * t-SNE visualizations (if `--phase analysis`) under `--visual_dir`
-
-## Citation
-
-If you use fDAAD in your research, please cite:
-
-> Yi et al., "Feature Decomposed Adaptive Alignment Divergence for Unsupervised Domain Adaptation", *NeurIPS 2025*.
 
 ## License
 
